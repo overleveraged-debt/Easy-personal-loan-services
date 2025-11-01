@@ -1,0 +1,70 @@
+<!-- Header Component -->
+<header id="main-header" class="fixed top-4 left-4 right-4 z-50 bg-white shadow-2xl shadow-black/10 rounded-2xl mx-4 transition-all duration-300">
+    <nav class="container mx-auto px-8 py-4 flex justify-between items-center">
+        <!-- Logo Placeholder -->
+        <div class="text-2xl font-bold text-primary">
+            <a href="./">
+<img src="images/logo easy personal loan.PNG" alt="Easy Personal Loan Services Logo" class="h-10">
+            </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center justify-center space-x-8 flex-1">
+            <!-- Products Dropdown -->
+            <div class="relative group">
+                <button class="text-gray-700 hover:text-primary font-medium flex items-center transition-colors duration-300">
+                    Products <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                </button>
+                <div class="dropdown-menu absolute left-0 mt-2 w-48 bg-white rounded-md shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-50 border border-gray-200">
+                    <a href="pages/personal-loan.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Loan</a>
+                    <a href="pages/balance-transfer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Balance Transfer</a>
+                    <a href="pages/overdraft-loan.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Overdraft Personal Loan</a>
+                    <a href="pages/home-renovation.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Home Renovation Loan</a>
+                    <a href="pages/emergency-loan.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Emergency Loan</a>
+                    <a href="pages/wedding-loan.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wedding Loan</a>
+                </div>
+            </div>
+            <a href="pages/emi-calculator.html" class="text-gray-700 hover:text-primary font-medium transition-colors duration-300">EMI Calculator</a>
+            <a href="pages/contact.html" class="text-gray-700 hover:text-primary font-medium transition-colors duration-300">Contact Us</a>
+        </div>
+
+        <!-- Apply Now Button -->
+        <div class="hidden md:block">
+            <a href="pages/apply-now.html" class="btn-primary px-6 py-3">
+                Apply Now
+            </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <button id="mobile-menu-btn" class="text-gray-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+        <!-- Products Dropdown Mobile -->
+        <div class="px-4 py-3 border-b">
+            <div id="mobile-products-toggle" class="flex justify-between items-center cursor-pointer">
+                <span class="text-gray-700 font-medium">Products</span>
+                <i class="fas fa-chevron-down text-xs" id="mobile-products-icon"></i>
+            </div>
+            <div id="mobile-products-menu" class="hidden mt-2 space-y-2 pl-4">
+                <a href="pages/personal-loan.html" class="block text-gray-600 hover:text-primary">Personal Loan</a>
+                <a href="pages/balance-transfer.html" class="block text-gray-600 hover:text-primary">Balance Transfer</a>
+                <a href="pages/overdraft-loan.html" class="block text-gray-600 hover:text-primary">Overdraft Personal Loan</a>
+                <a href="pages/home-renovation.html" class="block text-gray-600 hover:text-primary">Home Renovation Loan</a>
+                <a href="pages/emergency-loan.html" class="block text-gray-600 hover:text-primary">Emergency Loan</a>
+                <a href="pages/wedding-loan.html" class="block text-gray-600 hover:text-primary">Wedding Loan</a>
+            </div>
+        </div>
+        <a href="pages/emi-calculator.html" class="block px-4 py-3 text-gray-700 hover:bg-gray-100 font-medium">EMI Calculator</a>
+        <a href="pages/apply-now.html" class="block px-4 py-3 text-gray-700 hover:bg-gray-100 font-medium">Apply Now</a>
+        <a href="pages/contact.html" class="block px-4 py-3 text-gray-700 hover:bg-gray-100 font-medium">Contact Us</a>
+        <a href="pages/apply-now.html" class="block px-4 py-3 text-center btn-primary text-white font-semibold rounded-lg m-4">
+            Apply Now
+        </a>
+    </div>
+</header>

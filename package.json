@@ -1,0 +1,21 @@
+{
+  "name": "loansjagat-website",
+  "version": "1.0.0",
+  "description": "A website for personal loan services.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "vite": "^4.0.0"
+  }
+}
